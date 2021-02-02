@@ -1,8 +1,0 @@
-CHIP IsNeg16 {
-    IN in[16];
-    OUT out;
-
-    PARTS:
-    // Put you code here:
-    And(a=in[15], b=true, out=out);
-}
